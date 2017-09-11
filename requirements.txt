@@ -1,3 +1,4 @@
+jupyter
 nbconvert
 pathlib2
 beautifulsoup4

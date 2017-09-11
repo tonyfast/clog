@@ -1,0 +1,7 @@
+nbconvert
+pathlib2
+beautifulsoup4
+toolz
+git+https://github.com/tonyfast/importable
+git+https://github.com/tonyfast/literacy
+git+https://github.com/tonyfast/nbd

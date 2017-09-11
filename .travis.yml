@@ -1,4 +1,29 @@
 language: python
+python:
+- 3.5
+
+# blocklist
+branches:
+  except:
+  - master
+
+install:
+- wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+- bash miniconda.sh -b -p $HOME/miniconda
+- export PATH="$HOME/miniconda/bin:$PATH"
+- rm miniconda.sh
+- hash -r
+- conda config --set always_yes yes --set changeps1 no
+- conda config --add channels conda-forge # For sphinxcontrib.autoprogram
+- conda update -q conda
+- conda info -a
+- conda create -y -q -n convert python=$TRAVIS_PYTHON_VERSION jupyter pyyaml
+- source activate convert
+- pip install -r requirements.txt
+
+
+script:
+- jupyter nbconvert --to notebook --execute readme.ipynb
 
 deploy:
   provider: pages

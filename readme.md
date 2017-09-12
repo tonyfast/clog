@@ -7,17 +7,21 @@
 ```
 
     [NbConvertApp] Converting notebook readme.ipynb to markdown
-    [NbConvertApp] Writing 677 bytes to readme.md
+    [NbConvertApp] Writing 1380 bytes to readme.md
     [NbConvertApp] Converting notebook config/config.ipynb to python
-    [NbConvertApp] Writing 533 bytes to config/config.py
-    Traceback (most recent call last):
-      File "/Users/tonyfast/anaconda/bin/jupyter-nbd", line 11, in <module>
-        load_entry_point('nbd', 'console_scripts', 'jupyter-nbd')()
-      File "/Users/tonyfast/anaconda/lib/python3.5/site-packages/setuptools-27.2.0-py3.5.egg/pkg_resources/__init__.py", line 565, in load_entry_point
-      File "/Users/tonyfast/anaconda/lib/python3.5/site-packages/setuptools-27.2.0-py3.5.egg/pkg_resources/__init__.py", line 2598, in load_entry_point
-      File "/Users/tonyfast/anaconda/lib/python3.5/site-packages/setuptools-27.2.0-py3.5.egg/pkg_resources/__init__.py", line 2258, in load
-      File "/Users/tonyfast/anaconda/lib/python3.5/site-packages/setuptools-27.2.0-py3.5.egg/pkg_resources/__init__.py", line 2264, in resolve
-      File "/Users/tonyfast/nbd/nbd.py", line 48, in <module>
-        def identity(path, resources: dict=None, **kw) -> t.Tuple[NotebookNode, dict]:
-    NameError: name 't' is not defined
+    [NbConvertApp] Writing 524 bytes to config/config.py
+    [Docs] Converting notebook posts/2017-09-10-First-Post.ipynb to html
+    [Docs] Writing 253471 bytes to docs/posts/2017-09-10-First-Post.ipynb.html
+    [Docs] Converting notebook posts/2017-09-10-Project-Statistics.ipynb to html
+    [Docs] Writing 290468 bytes to docs/posts/2017-09-10-Project-Statistics.ipynb.html
+    [Docs] Converting notebook posts/2017-09-11-Gaskets-in-a-storm.ipynb to html
+    [Docs] Writing 369862 bytes to docs/posts/2017-09-11-Gaskets-in-a-storm.ipynb.html
+    [Docs] Converting notebook posts/jupyter4kids.ipynb to html
+    [Docs] Writing 268436 bytes to docs/posts/jupyter4kids.ipynb.html
+    [Docs] Converting notebook posts/powers-often.ipynb to html
+    [Docs] Writing 250242 bytes to docs/posts/powers-often.ipynb.html
+    [Docs] Converting notebook into html
+    [Docs] Writing 251224 bytes to docs/index.html
+    [Docs] Converting notebook into html
+    [Docs] Writing 249240 bytes to docs/about.html
 

@@ -3,6 +3,8 @@ nbconvert
 pathlib2
 beautifulsoup4
 toolz
+pandas 
+bokeh
 git+https://github.com/tonyfast/importable
 git+https://github.com/tonyfast/literacy
 git+https://github.com/tonyfast/nbd

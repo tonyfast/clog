@@ -7,7 +7,7 @@ install:
 
 script:
 - jupyter nbconvert clog/*.ipynb
-- jupyter nbconvert --stdout readme.ipynb >> index.html 
+- jupyter nbconvert --stdout --execute readme.ipynb >> index.html 
 - ls **
 
 deploy:

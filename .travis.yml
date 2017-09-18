@@ -6,7 +6,7 @@ install:
 - pip install nbconvert
 
 script:
-- jupyter nbconvert *.ipynb
+- jupyter nbconvert --output-dir . clog/*.ipynb
 - ls **
 
 deploy:

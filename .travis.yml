@@ -6,7 +6,6 @@ install:
 - pip install -r requirements.txt
 
 script:
-- jupyter nbconvert clog/*.ipynb
 - jupyter nbconvert --stdout --execute readme.ipynb >> index.html 
 - ls **
 

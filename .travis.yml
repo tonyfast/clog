@@ -6,7 +6,7 @@ install:
 - pip install -r requirements.txt
 
 script:
-- jupyter nbconvert --stdout --execute readme.ipynb >> index.html 
+- jupyter nbconvert --to markdown --execute readme.ipynb
 - ls **
 
 deploy:

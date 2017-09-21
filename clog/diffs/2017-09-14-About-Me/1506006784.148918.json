@@ -1,0 +1,1 @@
+[{"path": "/cells/18", "op": "remove"}, {"path": "/cells/17", "op": "remove"}, {"path": "/cells/16/source/0", "value": "(PathIndex('.').parent.parent.parent / 'gists').iterdir()\n", "op": "replace"}]

@@ -1,0 +1,1 @@
+[{"path": "/cells/9", "value": {"cell_type": "code", "source": ["def download(gist, to):\n", "    \"\"\"Download a url and write it to file.\"\"\"\n", "    try: to.write_text(r.get(gist).text); return True\n", "    except: return False\n"]}, "op": "replace"}]
